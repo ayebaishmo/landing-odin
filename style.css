@@ -1,0 +1,161 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+header {
+ background-color: #1F2937;
+ padding-bottom: 100px;
+}
+
+nav {
+ display: flex;
+}
+
+nav > div {
+ flex: 1;
+ margin-left: 170px;
+}
+
+span >h1 {
+ color: #F0FAF8;
+ font-size: 24px;
+ cursor: pointer;
+}
+
+.linkH > ul {
+ list-style-type: none;
+}
+
+.linkH > ul > li {
+ display: inline;
+ margin: 10px;
+ color: #E5E7EB;
+ font-size: 18px;
+ cursor: pointer;
+}
+
+/* header awesome */
+
+.container {
+ display: flex;
+}
+
+.container > div {
+ flex: 1;
+ margin-left: 170px;
+ margin-top: 50px;
+}
+
+.awse > h2{
+ color: #F0FAF8;
+}
+
+.signP {
+ background-color: blue;
+ color: white;
+ border: none;
+ border-radius: 3px;
+ padding: 6px;
+}
+
+.awse > p {
+ color: #E5E7EB;
+ padding-right: 230px;
+}
+
+.placeH > P {
+ background-color: #E5E7EB;
+ width: 350px;
+ height: 100px;
+ text-align: center;
+ padding-top: 32px;
+}
+
+.random > div > h2 {
+ padding: 20px;
+ text-align: center;
+} 
+
+.heyP {
+ border: 4px solid rgb(64, 64, 245);
+ padding: 80px;
+ text-align: center;
+ border-radius: 10px;
+}
+
+.squares {
+ display: flex;
+ margin-bottom: 20px;
+ font-size: 10px;
+ margin-left: 110px;
+ text-align: center;
+ margin-bottom: 90px;
+}
+
+.square1 {
+ text-align: center;
+ margin-left: 100px;
+}
+
+/*quote*/
+.quote {
+ background-color: #E5E7EB;
+ padding-bottom: 70px;
+}
+
+.quote > p{
+ margin-left: 200px;
+ font-size: 36px;
+ font-style: italic;
+ color: #4e4f50;
+}
+
+.quote > h6 {
+ text-align: right;
+ margin-right: 410px;
+ font-size: 20px;
+}
+
+.call {
+ display: flex;
+ padding: 90px;
+ margin-top: 190px;
+ margin-left: 190px;
+ margin-right: 190px;
+ margin-left: 190px;
+ margin-bottom: 190px;
+ background-color: rgb(64, 64, 245);
+}
+
+.call >div {
+ flex: 1;
+}
+
+
+.action > h6 {
+ color: #F0FAF8;
+ font-size: 26px;
+}
+
+.action > p{
+ color: #E5E7EB;
+}
+
+.call > div > button {
+ background-color: rgb(64, 64, 245);
+ color: white;
+ border: 1px solid white;
+ padding: 5px 10px;
+ border-radius: 5px;
+ margin-left: 180px;
+}
+
+.copy {
+ text-align: center;
+ background-color: #1F2937;
+ padding: 50px;
+ color: white;
+ font-size: 26px;
+}
